@@ -1,1 +1,73 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Lato, sans-serif;
+}
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #eee9de;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 0 1.5rem;
+}
+
+a {
+  display: inline-block;
+  font-family: Lato, sans-serif;
+  color: #333;
+  text-decoration: none;
+  border-color: #333;
+  border: solid;
+  padding: .4em .75em .5em;
+  border-radius: .5em;
+}
+
+a:hover {
+  display: inline-block;
+  color: #fff;
+  background-color: #666;
+  border-color: #666;
+  text-decoration: none;
+}
+
+.image {
+  padding: 1em;
+  display: inline-block;
+  max-width: 25em;
+  vertical-align: middle;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+section {
+  padding: 2em 0;
+}
+
+.btn {
+  text-align: left;
+  font-size: 1.125rem;
+}
+
+.text {
+  display: inline-block;
+  text-align: left;
+  max-width: 25em;
+  padding: 1em;
+  vertical-align: middle;
+}
+
+p {
+  margin: 0 0 1.5rem;
+}
